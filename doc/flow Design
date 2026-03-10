@@ -1,0 +1,14 @@
+# Flow Design
+
+## Trigger
+Requested Item created for Release Deployment Request
+
+## Main Logic
+1. Create Release record
+2. If Prod:
+   - Create Normal Change
+   - Request approvals
+3. Else:
+   - Create Standard Change
+4. Create release checklist tasks
+5. Close Change, Release, and RITM after execution
