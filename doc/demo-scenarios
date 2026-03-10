@@ -1,0 +1,21 @@
+# Demo Scenarios
+
+## Scenario 1
+Submit a production high-risk release request with a backout plan.
+Expected result:
+- Release created
+- Normal change created
+- Approval path triggered
+- Tasks generated
+
+## Scenario 2
+Submit a QA release request.
+Expected result:
+- Simpler change path
+- Tasks generated
+- Release closes successfully
+
+## Scenario 3
+Try to authorize a high-risk release without a backout plan.
+Expected result:
+- Authorization blocked
