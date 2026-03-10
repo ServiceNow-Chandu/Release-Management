@@ -1,0 +1,11 @@
+# Architecture Overview
+
+## Main Components
+- Catalog Item: Release Deployment Request
+- Custom Table: Release
+- Change Request integration
+- Flow Designer orchestration
+- Governance Business Rule
+
+## Process Summary
+Catalog request creates Release record, determines environment-based change path, creates checklist tasks, and closes records after execution.
