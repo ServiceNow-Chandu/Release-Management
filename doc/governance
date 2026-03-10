@@ -1,0 +1,7 @@
+# Governance Rules
+
+## High Risk Backout Plan
+High-risk releases cannot move into authorization without a documented backout plan.
+
+## Environment-Based Control
+Production releases require stronger governance and approval steps than non-production releases.
